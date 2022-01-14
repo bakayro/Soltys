@@ -1,0 +1,145 @@
+$flaticon-font: "flaticon";
+
+@font-face {
+    font-family: $flaticon-font;
+    src: url("./flaticon.ttf?c92a5cffae05101cd16233db23c84038") format("truetype"),
+url("./flaticon.woff?c92a5cffae05101cd16233db23c84038") format("woff"),
+url("./flaticon.woff2?c92a5cffae05101cd16233db23c84038") format("woff2"),
+url("./flaticon.eot?c92a5cffae05101cd16233db23c84038#iefix") format("embedded-opentype"),
+url("./flaticon.svg?c92a5cffae05101cd16233db23c84038#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+$flaticon-map: (
+    "facebook": "\f101",
+    "phone-call": "\f102",
+    "email": "\f103",
+    "clock": "\f104",
+    "arrow-right": "\f105",
+    "check": "\f106",
+    "insurance": "\f107",
+    "car": "\f108",
+    "car-insurance": "\f109",
+    "money": "\f10a",
+    "house": "\f10b",
+    "road": "\f10c",
+    "power-plant": "\f10d",
+    "accident": "\f10e",
+    "car-accident": "\f10f",
+    "team": "\f110",
+    "buy-home": "\f111",
+    "home": "\f112",
+    "fender-bender": "\f113",
+    "car-1": "\f114",
+    "businessman": "\f115",
+    "star": "\f116",
+    "star-1": "\f117",
+    "star-half-empty": "\f118",
+    "expert": "\f119",
+    "fingerprint": "\f11a",
+    "time-management": "\f11b",
+    "mouse": "\f11c",
+    "tractor": "\f11d",
+    "farmer": "\f11e",
+);
+
+.flaticon-facebook:before {
+    content: map-get($flaticon-map, "facebook");
+}
+.flaticon-phone-call:before {
+    content: map-get($flaticon-map, "phone-call");
+}
+.flaticon-email:before {
+    content: map-get($flaticon-map, "email");
+}
+.flaticon-clock:before {
+    content: map-get($flaticon-map, "clock");
+}
+.flaticon-arrow-right:before {
+    content: map-get($flaticon-map, "arrow-right");
+}
+.flaticon-check:before {
+    content: map-get($flaticon-map, "check");
+}
+.flaticon-insurance:before {
+    content: map-get($flaticon-map, "insurance");
+}
+.flaticon-car:before {
+    content: map-get($flaticon-map, "car");
+}
+.flaticon-car-insurance:before {
+    content: map-get($flaticon-map, "car-insurance");
+}
+.flaticon-money:before {
+    content: map-get($flaticon-map, "money");
+}
+.flaticon-house:before {
+    content: map-get($flaticon-map, "house");
+}
+.flaticon-road:before {
+    content: map-get($flaticon-map, "road");
+}
+.flaticon-power-plant:before {
+    content: map-get($flaticon-map, "power-plant");
+}
+.flaticon-accident:before {
+    content: map-get($flaticon-map, "accident");
+}
+.flaticon-car-accident:before {
+    content: map-get($flaticon-map, "car-accident");
+}
+.flaticon-team:before {
+    content: map-get($flaticon-map, "team");
+}
+.flaticon-buy-home:before {
+    content: map-get($flaticon-map, "buy-home");
+}
+.flaticon-home:before {
+    content: map-get($flaticon-map, "home");
+}
+.flaticon-fender-bender:before {
+    content: map-get($flaticon-map, "fender-bender");
+}
+.flaticon-car-1:before {
+    content: map-get($flaticon-map, "car-1");
+}
+.flaticon-businessman:before {
+    content: map-get($flaticon-map, "businessman");
+}
+.flaticon-star:before {
+    content: map-get($flaticon-map, "star");
+}
+.flaticon-star-1:before {
+    content: map-get($flaticon-map, "star-1");
+}
+.flaticon-star-half-empty:before {
+    content: map-get($flaticon-map, "star-half-empty");
+}
+.flaticon-expert:before {
+    content: map-get($flaticon-map, "expert");
+}
+.flaticon-fingerprint:before {
+    content: map-get($flaticon-map, "fingerprint");
+}
+.flaticon-time-management:before {
+    content: map-get($flaticon-map, "time-management");
+}
+.flaticon-mouse:before {
+    content: map-get($flaticon-map, "mouse");
+}
+.flaticon-tractor:before {
+    content: map-get($flaticon-map, "tractor");
+}
+.flaticon-farmer:before {
+    content: map-get($flaticon-map, "farmer");
+}

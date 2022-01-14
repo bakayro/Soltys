@@ -1,0 +1,110 @@
+@font-face {
+    font-family: "flaticon";
+    src: url("./flaticon.ttf?c92a5cffae05101cd16233db23c84038") format("truetype"),
+url("./flaticon.woff?c92a5cffae05101cd16233db23c84038") format("woff"),
+url("./flaticon.woff2?c92a5cffae05101cd16233db23c84038") format("woff2"),
+url("./flaticon.eot?c92a5cffae05101cd16233db23c84038#iefix") format("embedded-opentype"),
+url("./flaticon.svg?c92a5cffae05101cd16233db23c84038#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.flaticon-facebook:before {
+    content: "\f101";
+}
+.flaticon-phone-call:before {
+    content: "\f102";
+}
+.flaticon-email:before {
+    content: "\f103";
+}
+.flaticon-clock:before {
+    content: "\f104";
+}
+.flaticon-arrow-right:before {
+    content: "\f105";
+}
+.flaticon-check:before {
+    content: "\f106";
+}
+.flaticon-insurance:before {
+    content: "\f107";
+}
+.flaticon-car:before {
+    content: "\f108";
+}
+.flaticon-car-insurance:before {
+    content: "\f109";
+}
+.flaticon-money:before {
+    content: "\f10a";
+}
+.flaticon-house:before {
+    content: "\f10b";
+}
+.flaticon-road:before {
+    content: "\f10c";
+}
+.flaticon-power-plant:before {
+    content: "\f10d";
+}
+.flaticon-accident:before {
+    content: "\f10e";
+}
+.flaticon-car-accident:before {
+    content: "\f10f";
+}
+.flaticon-team:before {
+    content: "\f110";
+}
+.flaticon-buy-home:before {
+    content: "\f111";
+}
+.flaticon-home:before {
+    content: "\f112";
+}
+.flaticon-fender-bender:before {
+    content: "\f113";
+}
+.flaticon-car-1:before {
+    content: "\f114";
+}
+.flaticon-businessman:before {
+    content: "\f115";
+}
+.flaticon-star:before {
+    content: "\f116";
+}
+.flaticon-star-1:before {
+    content: "\f117";
+}
+.flaticon-star-half-empty:before {
+    content: "\f118";
+}
+.flaticon-expert:before {
+    content: "\f119";
+}
+.flaticon-fingerprint:before {
+    content: "\f11a";
+}
+.flaticon-time-management:before {
+    content: "\f11b";
+}
+.flaticon-mouse:before {
+    content: "\f11c";
+}
+.flaticon-tractor:before {
+    content: "\f11d";
+}
+.flaticon-farmer:before {
+    content: "\f11e";
+}
