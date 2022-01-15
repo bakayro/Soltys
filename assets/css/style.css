@@ -37,7 +37,6 @@ h6 {
 	font-family: 'Exo 2', sans-serif;
 }
 
-
 /* CUSTOM SELECTED */
 
 h1::selection,
@@ -475,15 +474,13 @@ section.bg-4 {
 	background-color: #f18f20;
 	color: #fff;
 	position: absolute;
-	padding: 10px;
-	line-heigth: 1;
+	line-height: 1;
 	top: 20px; 
 	left: 0;
 	padding: 30px;
 	font-size: 30px;
 	font-weight: 900;
 	text-align: center;
-	line-height: 30px;
 	z-index: 2;
 }
 
@@ -669,7 +666,7 @@ i.icon {
 	position: relative;
 	top: -35px;
 	left: 10px;
-	overflov: hidden;
+	overflow: hidden;
 	border: 1px solid #c2c2c2;
 }
 
@@ -681,7 +678,6 @@ i.icon {
 
 .boxes-2 .item .item-body {
 	width: calc(100% - 225px);
-	text-align: center;
 	padding: 10px 10px 10px 20px;
 	text-align: left;
 }
@@ -1256,7 +1252,6 @@ footer .footer-body p {
 	
 	.boxes .item {
 		padding: 15px;
-		min-height: 275px;
 		margin-bottom: 25px;
 		min-height: 200px;
 	}
@@ -1579,7 +1574,7 @@ footer .footer-body p {
 	
 	.kontakt .infobox-right {
 		width: 100%;
-		paddding: 30px;
+		padding: 30px;
 	}
 	
 	.kontakt .infobox-right .pen {
